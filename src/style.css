@@ -1,7 +1,8 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
 body {
-  background-color: rgb(13, 95, 16);
+  background-image: url(https://i.pinimg.com/564x/a9/f3/b0/a9f3b03fdbabeb234cd49ff10fd03a91.jpg);
+  background-repeat: repeat;
   box-sizing: border-box;
 }
 
@@ -11,10 +12,10 @@ body {
   margin: auto;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  height: 300px;
-  width: 200px;
+  height: 18.3rem;
+  width: 13rem;
   border-radius: 0.7rem;
-  padding-top: 100px;
+  padding-top: 5rem;
   position: relative;
 }
 
@@ -22,16 +23,22 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  font-size: 47px;
+  font-size: 3rem;
   padding-left: 1rem;
 }
+
 .bottom-suit {
   position: absolute;
   top: 14rem;
   right: 0;
-  font-size: 47px;
+  font-size: 3rem;
   padding-right: 1rem;
+  transform: rotateX(180deg);
 }
 .number {
-  font-size: 4rem;
+  font-size: 5rem;
+}
+
+.redColor {
+  color: red;
 }
